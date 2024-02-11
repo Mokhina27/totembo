@@ -1,0 +1,97 @@
+@media (max-width: 1199.98px) {
+    .header {
+        padding-top: 30px;
+    }
+
+    .header__nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .header__logo-list {
+        gap: 20px;
+    }
+    .discounts__grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card:nth-child(3) {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer__list {
+        flex-wrap: wrap;
+        gap: 70px;
+    }
+
+    .news__cards {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 767.98px){
+    .logo__info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .discounts__grid {
+        display: flex;
+        flex-direction: column;
+    }
+    .card {
+        padding: 20px;
+    }
+
+    .sales__cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sale__card {
+        padding: 15px;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+    .header__logo-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer__list-gap {
+        gap: 50px;
+    }
+}
+@media (max-width: 400px) {
+    .card {
+        display: flex;flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card img {
+        padding: 15px;
+    }
+
+    .card__img {
+        width: 200px;
+    }
+
+    .news__card-title {
+        width: 200px;
+    }
+
+    .news__card-text {
+        width: 200px;
+    }
+}
